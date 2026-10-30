@@ -1,0 +1,28 @@
+# Python OOPs Notes - Hindi me
+
+> Neeraj sir ke notes se banaya hua
+
+## OOPs kya hai?
+Real world entity ko programming world me connect karne ka tarika.
+
+### 4 Main Concepts:
+1.  **Class** - Dummy model / Blueprint
+2.  **Object** - Physical existence / Instance of class
+3.  **self** - Current object ka address hold karta hai
+4.  **__init__** - Constructor, object bante hi auto call hota hai
+
+### Variables:
+- **Instance variable:** `self.n = name` - object dependent
+- **Class variable:** `school_name = "SHSS"` - class dependent
+- **Local variable:** Method ke andar
+
+### Methods:
+- **Instance method:** `def show(self):`
+- **Class method:** `@classmethod` + `cls`
+- **Static method:** `@staticmethod`, independent
+
+### 4 Pillars (Desi yaad karne ka tarika):
+- **Abstraction** - खासियत को छिपाना - Abstract class/method
+- **Encapsulation** - दो रंग की कैप्सूल - variables+methods ek unit me
+- **Inheritance** - पिता जी की संपत्ति लेना - Single, Multi-level, Multiple, Hierarchical
+- **Polymorphism** - बहरूपिया - overloading/overriding
